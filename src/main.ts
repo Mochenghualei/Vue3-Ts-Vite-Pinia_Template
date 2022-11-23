@@ -2,7 +2,7 @@ import { createApp } from 'vue'
 import App from './App.vue'
 import store from '@/store'
 import router from '@/router'
-import '@/assets/styles/index.scss'
+import '@/styles/index.scss'
 import * as ELIcon from '@element-plus/icons-vue'
 
 const app = createApp(App)

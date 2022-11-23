@@ -54,7 +54,8 @@ export default ({ mode }) => {
       preprocessorOptions: {
         scss: {
           additionalData: `
-          @import "@/assets/styles/variables.scss";
+          @use "@/styles/element/dark.scss" as *;
+          @import "@/styles/variables.scss";
         `,
           javascriptEnabled: true,
         },
