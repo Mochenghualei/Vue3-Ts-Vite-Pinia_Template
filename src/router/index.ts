@@ -28,6 +28,8 @@ router.beforeEach((to, from, next) => {
   if (!NProgress.isStarted()) {
     NProgress.start()
   }
+  // useDark
+  useDark()
   next()
   // if (localStorage.getItem('token')) {
   //   if (to.path === '/login') {

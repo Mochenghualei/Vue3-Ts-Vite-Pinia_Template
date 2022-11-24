@@ -23,7 +23,7 @@ export default {
 </template>
 
 <script setup lang="ts">
-const homeURL = ref<string>('/home');
+const homeURL = ref<string>('/');
 const message = computed(() => '未取得该页面的权限,请联系管理员...');
 </script>
 
@@ -192,7 +192,7 @@ const message = computed(() => '未取得该页面的权限,请联系管理员..
     &__headline {
       font-size: 20px;
       line-height: 24px;
-      color: #222;
+      // color: #222;
       font-weight: bold;
       opacity: 0;
       margin-bottom: 10px;
@@ -205,7 +205,7 @@ const message = computed(() => '未取得该页面的权限,请联系管理员..
     &__info {
       font-size: 13px;
       line-height: 21px;
-      color: grey;
+      // color: grey;
       opacity: 0;
       margin-bottom: 30px;
       animation-name: slideUp;
